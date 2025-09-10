@@ -1,0 +1,173 @@
+/***** GENERAL STYLING *****/
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.button,
+.action-button-bundle {
+  background-color: #3882f6;
+}
+
+.button {
+  padding: 5px 30px;
+  border-radius: 8px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a:hover,
+.button:hover {
+  font-weight: bold;
+}
+/***** NAVBAR & HERO SECTION *****/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 75px;
+  padding-top: 25px;
+}
+
+.right-nav {
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.hero-content {
+  width: 500px;
+}
+
+.hero-secondary-text,
+.link-text,
+.action-container,
+.button,
+footer {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.hero h1,
+.hero {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero,
+nav,
+footer {
+  background-color: #1f2937;
+}
+
+/***** INFORMATION SECTION *****/
+
+.information h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 40px 150px;
+  margin: 75px 0;
+}
+
+.cigar {
+  flex: 1 1 0;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 8px;
+}
+
+/***** QUOTE SECTION *****/
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 200px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+cite {
+  font-weight: bold;
+}
+
+/***** CALL TO ACTION *****/
+
+.action-container {
+  display: flex;
+  justify-content: center;
+  padding: 75px;
+}
+
+.action-button-bundle {
+  display: flex;
+  gap: 64px;
+  padding: 25px 200px;
+  border-radius: 4px;
+}
+
+button.button {
+  border: 1px solid white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
